@@ -12,8 +12,8 @@ class CloudSecretsManager < Formula
     dir = buildpath/"src/github.com/h0n9/cloud-secrets-manager"
     dir.install buildpath.children
     cd dir do
-      system "go", "build", "-o", bin/"cloud-secrets-manager", "cmd/cloud-secrets-manager/main.go"
-      system "go", "build", "-o", bin/"csm", "cmd/cloud-secrets-manager/main.go"
+      system "go", "build", "-o", bin/"cloud-secrets-manager", "./cmd/cloud-secrets-manager/main.go"
+      system "go", "build", "-o", bin/"csm", "./cmd/cloud-secrets-manager/main.go"
     end
   end
 
