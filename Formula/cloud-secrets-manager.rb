@@ -13,7 +13,7 @@ class CloudSecretsManager < Formula
     dir.install buildpath.children
     cd dir do
       system "go", "build", "-o", bin/"cloud-secrets-manager", "./cmd/cloud-secrets-manager/main.go"
-      system "go", "build", "-o", bin/"csm", "./cmd/cloud-secrets-manager/main.go"
+      ln_s bin/"cloud-secrets-manager", bin/"csm"
     end
   end
 
