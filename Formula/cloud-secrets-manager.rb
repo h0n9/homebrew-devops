@@ -1,7 +1,7 @@
 class CloudSecretsManager < Formula
   desc "CLI tool to manage secrets in cloud-based secret managers"
   homepage "https://github.com/h0n9/cloud-secrets-manager"
-  url "https://github.com/h0n9/cloud-secrets-manager/archive/v0.5.tar.gz"
+  url "https://github.com/h0n9/cloud-secrets-manager/archive/refs/tags/v0.5.tar.gz"
   sha256 "e34fbfd7bfeabeb31d9c10f03828eb8a9fb9b7a4a34a6d0e981068a6fbe161d3"
   revision 1
   head "https://github.com/h0n9/cloud-secrets-manager.git"
