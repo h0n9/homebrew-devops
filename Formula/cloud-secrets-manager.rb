@@ -1,5 +1,3 @@
-require "language/go"
-
 class CloudSecretsManager < Formula
   desc "CLI tool to manage secrets in cloud-based secret managers"
   homepage "https://github.com/h0n9/cloud-secrets-manager"
