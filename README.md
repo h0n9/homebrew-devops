@@ -1,4 +1,4 @@
-# H0n9 Devops
+# h0n9 DevOps
 
 ## How do I install these formulae?
 
