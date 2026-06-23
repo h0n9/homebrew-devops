@@ -1,7 +1,7 @@
 class OhMyGraph < Formula
   desc "MCP-compatible knowledge graph server with HTTP transport and in-memory caching"
   homepage "https://github.com/h0n9/oh-my-graph"
-  version "0.1.0"
+  version "0.0.0"
   license "Apache-2.0"
 
   on_macos do
