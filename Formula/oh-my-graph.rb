@@ -1,28 +1,28 @@
 class OhMyGraph < Formula
   desc "MCP-compatible knowledge graph server with HTTP transport and in-memory caching"
   homepage "https://github.com/h0n9/oh-my-graph"
-  version "0.7.0"
+  version "0.8.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/h0n9/oh-my-graph/releases/download/v#{version}/oh-my-graph_darwin_arm64.tar.gz"
-      sha256 "f2c078920b13b3d6b094651f17d1c8c749d9e562554aa6f85c7ec18ab9680dfb" # darwin_arm64
+      sha256 "9aed708de71905e9952a3a33e1a4d5e07c82807a9642210bd580da608a0eb38b" # darwin_arm64
     end
     on_intel do
       url "https://github.com/h0n9/oh-my-graph/releases/download/v#{version}/oh-my-graph_darwin_amd64.tar.gz"
-      sha256 "83fc01ed313caf5ef474e4edbed278e57c24b28dbf6c776e1acd51303c1045ab" # darwin_amd64
+      sha256 "72709140a6ebf9b233d52a424e537d8a2e2074ad76e81caadd52b76f8d9f6a91" # darwin_amd64
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/h0n9/oh-my-graph/releases/download/v#{version}/oh-my-graph_linux_arm64.tar.gz"
-      sha256 "2b1b153db8f41417fad55960a5079b5abd26fd8ae1d01da3bfdfb908cf5a621a" # linux_arm64
+      sha256 "9202477de473632d2632a0797e02dddcf26ad79f67f0328d2d35eb7165619150" # linux_arm64
     end
     on_intel do
       url "https://github.com/h0n9/oh-my-graph/releases/download/v#{version}/oh-my-graph_linux_amd64.tar.gz"
-      sha256 "40ae5b345cd8fe2a7f2f99d739f1aea99eaaa2d67a8c2871ce82d33a6e48980a" # linux_amd64
+      sha256 "1a4965026821a2f2ff26100324ee4f76a9f9905f0397533f4e61e923058b2b8a" # linux_amd64
     end
   end
 
