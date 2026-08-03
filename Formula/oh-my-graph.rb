@@ -5,23 +5,23 @@ class OhMyGraph < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/h0n9/oh-my-graph/releases/download/v0.9.1/oh-my-graph_darwin_arm64.tar.gz"
-      sha256 "8dd796627ec34c246ae5361756301c211e625906ed799a6384fb7de0b53dfa83" # darwin_arm64
+      url "https://github.com/h0n9/oh-my-graph/releases/download/v0.10.0/oh-my-graph_darwin_arm64.tar.gz"
+      sha256 "c78685bcd325c2cc05e3eb9aef8a183aa9416cb4cad5087504f497e3e7fc0d28" # darwin_arm64
     end
     on_intel do
-      url "https://github.com/h0n9/oh-my-graph/releases/download/v0.9.1/oh-my-graph_darwin_amd64.tar.gz"
-      sha256 "f5b99e711de5a58ce6b77d932c99864dd1b2a46baa3172211b6b038641694e3b" # darwin_amd64
+      url "https://github.com/h0n9/oh-my-graph/releases/download/v0.10.0/oh-my-graph_darwin_amd64.tar.gz"
+      sha256 "4208d7d73560a3807529c3a368fb900d30e6390844c20a45e78e5c2b6f004a13" # darwin_amd64
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/h0n9/oh-my-graph/releases/download/v0.9.1/oh-my-graph_linux_arm64.tar.gz"
-      sha256 "ae0bc417b014aad920d2b7ce6bd0866ec9c808e3a6a3197b8c420def96873e90" # linux_arm64
+      url "https://github.com/h0n9/oh-my-graph/releases/download/v0.10.0/oh-my-graph_linux_arm64.tar.gz"
+      sha256 "95b4c6ddbcdce6e6072f23d8e83805e199b84c7c2b755d07dabd257423c1a7c5" # linux_arm64
     end
     on_intel do
-      url "https://github.com/h0n9/oh-my-graph/releases/download/v0.9.1/oh-my-graph_linux_amd64.tar.gz"
-      sha256 "95d589432e96fc69496d78c276a5456f3d5f106905861a84a0d7616fc9f92872" # linux_amd64
+      url "https://github.com/h0n9/oh-my-graph/releases/download/v0.10.0/oh-my-graph_linux_amd64.tar.gz"
+      sha256 "f5995a131e92f39d6adcded40f7428d79c224a967e6980507fb222574a977f99" # linux_amd64
     end
   end
 
